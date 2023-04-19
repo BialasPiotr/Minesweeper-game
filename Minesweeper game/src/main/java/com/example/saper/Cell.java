@@ -5,8 +5,7 @@ public class Cell {
     private boolean isRevealed;
     private boolean isFlagged;
     private int adjacentMines;
-
-    public Cell() {
+ public Cell() {
         hasMine = false;
         isRevealed = false;
         isFlagged = false;
